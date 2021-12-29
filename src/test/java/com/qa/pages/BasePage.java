@@ -13,6 +13,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import com.microsoft.appcenter.appium.Factory;
+import com.microsoft.appcenter.appium.EnhancedAndroidDriver;
+import org.junit.rules.TestWatcher;
+import org.junit.Rule;
 
 import java.util.HashMap;
 
@@ -23,6 +27,10 @@ import static java.time.Duration.ofMillis;
 public class BasePage {
     private AppiumDriver<?> driver;
     TestUtils utils = new TestUtils();
+
+    @Rule
+    public TestWatcher watcher = Factory.createWatcher();
+
 
     public BasePage(){
         this.driver = new DriverManager().getDriver();

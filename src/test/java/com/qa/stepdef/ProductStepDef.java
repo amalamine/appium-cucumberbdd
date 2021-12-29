@@ -7,8 +7,16 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import com.microsoft.appcenter.appium.Factory;
+import com.microsoft.appcenter.appium.EnhancedAndroidDriver;
+import org.junit.rules.TestWatcher;
+import org.junit.Rule;
 
 public class ProductStepDef {
+
+    @Rule
+    public TestWatcher watcher = Factory.createWatcher();
+
 
     @Given("^I'm logged in$")
     public void iMLoggedIn() throws InterruptedException {

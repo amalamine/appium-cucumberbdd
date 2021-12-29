@@ -6,10 +6,17 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
-
+import com.microsoft.appcenter.appium.Factory;
+import com.microsoft.appcenter.appium.EnhancedAndroidDriver;
+import org.junit.rules.TestWatcher;
+import org.junit.Rule;
 import java.io.IOException;
 
 public class Hooks {
+
+    @Rule
+    public TestWatcher watcher = Factory.createWatcher();
+
 
     @Before
     public void initialize() throws Exception {

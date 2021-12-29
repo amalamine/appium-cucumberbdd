@@ -9,6 +9,10 @@ import org.apache.logging.log4j.ThreadContext;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
+import com.microsoft.appcenter.appium.Factory;
+import com.microsoft.appcenter.appium.EnhancedAndroidDriver;
+import org.junit.rules.TestWatcher;
+import org.junit.Rule;
 
 import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
@@ -27,7 +31,11 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 )
 
+
 public class MyRunnerTest {
+
+    @Rule
+    public TestWatcher watcher = Factory.createWatcher();
 
     @BeforeClass
     public static void initialize() throws Exception {

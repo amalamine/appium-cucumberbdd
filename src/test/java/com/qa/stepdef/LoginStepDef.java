@@ -5,8 +5,16 @@ import com.qa.pages.ProductsPage;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import com.microsoft.appcenter.appium.Factory;
+import com.microsoft.appcenter.appium.EnhancedAndroidDriver;
+import org.junit.rules.TestWatcher;
+import org.junit.Rule;
 
 public class LoginStepDef {
+
+    @Rule
+    public TestWatcher watcher = Factory.createWatcher();
+
 
     @When("^I enter username as \"([^\"]*)\"$")
     public void iEnterUsernameAs(String username) throws InterruptedException {
