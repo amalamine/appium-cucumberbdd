@@ -1,22 +1,22 @@
-[Android_OnePlus INFO ] 2021-12-29 04:53:02.950 ServerManager:20 - starting appium server
-[Android_OnePlus INFO ] 2021-12-29 04:53:04.712 ServerManager:29 - Appium server started
-[Android_OnePlus INFO ] 2021-12-29 04:53:04.757 DriverManager:30 - initializing Appium driver
-[Android_OnePlus INFO ] 2021-12-29 04:53:04.791 PropertyManager:17 - loading config properties
-[Android_OnePlus INFO ] 2021-12-29 04:53:04.817 CapabilitiesManager:18 - getting capabilities
-[Android_OnePlus INFO ] 2021-12-29 04:53:04.819 CapabilitiesManager:34 - appUrl is/Users/amal/Documents/Dev/mobile/appium-cucumberbdd/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
-[Android_OnePlus INFO ] 2021-12-29 04:53:15.595 DriverManager:42 - Driver is initialized
-[Android_OnePlus INFO ] 2021-12-29 04:53:18.002 BasePage:79 - login with invalidUsername
-[Android_OnePlus INFO ] 2021-12-29 04:53:19.215 BasePage:79 - password is secret_sauce
-[Android_OnePlus INFO ] 2021-12-29 04:53:20.322 BasePage:62 - press login button
-[Android_OnePlus INFO ] 2021-12-29 04:53:21.882 BasePage:105 - error text is - Username and password do not match any user in this service.
-[Android_OnePlus INFO ] 2021-12-29 04:53:22.716 VideoManager:35 - video path: Android_OnePlus/Videos/Login with invalid user name.mp4
-[Android_OnePlus INFO ] 2021-12-29 04:53:23.848 BasePage:79 - login with standard_user
-[Android_OnePlus INFO ] 2021-12-29 04:53:25.051 BasePage:79 - password is invalidPassword
-[Android_OnePlus INFO ] 2021-12-29 04:53:26.154 BasePage:62 - press login button
-[Android_OnePlus INFO ] 2021-12-29 04:53:26.861 BasePage:105 - error text is - Username and password do not match any user in this service.
-[Android_OnePlus INFO ] 2021-12-29 04:53:27.729 VideoManager:35 - video path: Android_OnePlus/Videos/Login with invalid password.mp4
-[Android_OnePlus INFO ] 2021-12-29 04:53:28.844 BasePage:79 - login with standard_user
-[Android_OnePlus INFO ] 2021-12-29 04:53:30.491 BasePage:79 - password is secret_sauce
-[Android_OnePlus INFO ] 2021-12-29 04:53:31.102 BasePage:62 - press login button
-[Android_OnePlus INFO ] 2021-12-29 04:53:32.609 BasePage:105 - product page title is - PRODUCTS
-[Android_OnePlus INFO ] 2021-12-29 04:53:33.711 VideoManager:35 - video path: Android_OnePlus/Videos/Login with valid user name and password.mp4
+[Android_OnePlus INFO ] 2021-12-29 06:16:40.340 ServerManager:20 - starting appium server
+[Android_OnePlus INFO ] 2021-12-29 06:16:49.138 ServerManager:29 - Appium server started
+[Android_OnePlus INFO ] 2021-12-29 06:16:49.187 DriverManager:28 - initializing Appium driver
+[Android_OnePlus INFO ] 2021-12-29 06:16:49.202 PropertyManager:17 - loading config properties
+[Android_OnePlus INFO ] 2021-12-29 06:16:49.207 CapabilitiesManager:18 - getting capabilities
+[Android_OnePlus INFO ] 2021-12-29 06:16:49.209 CapabilitiesManager:34 - appUrl is/Users/amal/Documents/Dev/mobile/appium-cucumberbdd/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[Android_OnePlus INFO ] 2021-12-29 06:17:00.971 DriverManager:40 - Driver is initialized
+[Android_OnePlus INFO ] 2021-12-29 06:17:03.394 BasePage:79 - login with invalidUsername
+[Android_OnePlus INFO ] 2021-12-29 06:17:04.714 BasePage:79 - password is secret_sauce
+[Android_OnePlus INFO ] 2021-12-29 06:17:05.854 BasePage:62 - press login button
+[Android_OnePlus INFO ] 2021-12-29 06:17:07.334 BasePage:105 - error text is - Username and password do not match any user in this service.
+[Android_OnePlus INFO ] 2021-12-29 06:17:08.293 VideoManager:35 - video path: Android_OnePlus/Videos/Login with invalid user name.mp4
+[Android_OnePlus INFO ] 2021-12-29 06:17:09.441 BasePage:79 - login with standard_user
+[Android_OnePlus INFO ] 2021-12-29 06:17:11.195 BasePage:79 - password is invalidPassword
+[Android_OnePlus INFO ] 2021-12-29 06:17:12.315 BasePage:62 - press login button
+[Android_OnePlus INFO ] 2021-12-29 06:17:12.816 BasePage:105 - error text is - Username and password do not match any user in this service.
+[Android_OnePlus INFO ] 2021-12-29 06:17:13.925 VideoManager:35 - video path: Android_OnePlus/Videos/Login with invalid password.mp4
+[Android_OnePlus INFO ] 2021-12-29 06:17:15.570 BasePage:79 - login with standard_user
+[Android_OnePlus INFO ] 2021-12-29 06:17:16.978 BasePage:79 - password is secret_sauce
+[Android_OnePlus INFO ] 2021-12-29 06:17:18.116 BasePage:62 - press login button
+[Android_OnePlus INFO ] 2021-12-29 06:17:19.959 BasePage:105 - product page title is - PRODUCTS
+[Android_OnePlus INFO ] 2021-12-29 06:17:20.945 VideoManager:35 - video path: Android_OnePlus/Videos/Login with valid user name and password.mp4

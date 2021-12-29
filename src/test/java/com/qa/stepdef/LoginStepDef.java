@@ -1,7 +1,7 @@
 package com.qa.stepdef;
 
-import com.qa.pages.LoginPage;
-import com.qa.pages.ProductsPage;
+import com.qa.pages.LoginPageTest;
+import com.qa.pages.ProductsPageTest;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -18,26 +18,26 @@ public class LoginStepDef {
 
     @When("^I enter username as \"([^\"]*)\"$")
     public void iEnterUsernameAs(String username) throws InterruptedException {
-        new LoginPage().enterUserName(username);
+        new LoginPageTest().enterUserName(username);
     }
 
     @When("^I enter password as \"([^\"]*)\"$")
     public void iEnterPasswordAs(String password) {
-        new LoginPage().enterPassword(password);
+        new LoginPageTest().enterPassword(password);
     }
 
     @When("^I login$")
     public void iLogin() {
-        new LoginPage().pressLoginBtn();
+        new LoginPageTest().pressLoginBtn();
     }
 
     @Then("^login should fail with an error \"([^\"]*)\"$")
     public void loginShouldFailWithAnError(String err) {
-        Assert.assertEquals(new LoginPage().getErrTxt(), err);
+        Assert.assertEquals(new LoginPageTest().getErrTxt(), err);
     }
 
     @Then("^I should see Products page with title \"([^\"]*)\"$")
     public void iShouldSeeProductsPageWithTitle(String title) {
-        Assert.assertEquals(new ProductsPage().getTitle(), title);
+        Assert.assertEquals(new ProductsPageTest().getTitle(), title);
     }
 }
